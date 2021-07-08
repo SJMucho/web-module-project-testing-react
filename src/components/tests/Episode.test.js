@@ -14,9 +14,19 @@ const testEpisode = {
 
 const testEpisodeWithoutImage = {
     //Add in approprate test data structure here.
+    id:1,
+    name: "",
+    image: null,
+    season: 1,
+    number: 1,
+    summary: "",
+    runtime: 1
 }
 
 test("renders without error", () => {
+
+    // render(<Episode />);
+    // screen.getByTestId('testEpisode')
 
 });
 
